@@ -6,3 +6,10 @@ jobs:
    steps:
      - name: Build Step
        run: echo "A demo Push"
+
+job: 
+  phase:
+   runs-on: ubuntu-latest
+   steps:
+     - name: Build Step 2
+       run: echo "This is a second step"       
